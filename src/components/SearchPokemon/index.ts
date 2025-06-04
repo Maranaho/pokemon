@@ -1,0 +1,1 @@
+export { SearchPokemon } from "./SearchPokemon"
