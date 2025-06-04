@@ -29,7 +29,8 @@
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     gap: 5px;
-
+    height: calc(100vh - 230px);
+    overflow-y: scroll;
     @media (min-width: 1600px) {
       grid-template-columns: repeat(7, 1fr);
       gap: 15px;

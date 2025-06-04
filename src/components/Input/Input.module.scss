@@ -1,9 +1,9 @@
 @import "../../styles/tokens.scss";
 
 .Input {
-  border-radius: 10px;
+  border-radius: 15px;
   box-shadow: 0 0 0 1px $inputBorder inset;
-  padding: 10px;
+  padding: 20px;
   > input {
     background: none;
     border:none;

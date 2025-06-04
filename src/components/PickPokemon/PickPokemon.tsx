@@ -11,7 +11,6 @@ export const PickPokemon = () => {
   }
   return (
     <section>
-      
       <h1>PickPokemon</h1>
       {pokemonType ? <PokemonsByType pokemonType={pokemonType}/> : <ListPokemonTypes setPokemonType={setPokemonType}/>}
       <button onClick={()=>navigate("/pick-a-trainer")}>Back</button>
